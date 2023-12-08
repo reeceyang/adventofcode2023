@@ -129,8 +129,6 @@ fn main() {
                         })
                         .next_tuple()
                         .unwrap();
-                    // println!("{} {}", a.iter().join(""), b.iter().join(""));
-                    // println!("{} {}", a_str, b_str);
                     a_str.cmp(&b_str)
                 }
             }
